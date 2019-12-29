@@ -7,7 +7,7 @@ if((2==4)):
 	print("true")
 else:
 	print("false")
-print(9.0000000000000001 == 9.0)
+print(9.0000000000000001 == 9.0)   #minor changes will not be taken into account and so it shows equal
 
 print()
 
