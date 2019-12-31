@@ -51,3 +51,9 @@ print(4 in nums)
 print(5 in nums)
 print([4,5] in nums)
 print(4 in nums[1])
+
+#to check item is "not in" list
+nums = [1,2,3]
+print(not 4 in nums)
+print(4 not in nums)
+print(1 not in nums)
