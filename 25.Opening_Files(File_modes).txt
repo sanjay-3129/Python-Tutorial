@@ -1,0 +1,54 @@
+* Just so this isn't clear to ppl, just opening a file in "w" IMMEDIATELY erases the contents that were already there.
+
+Here there are all the available modes of the function "open" with relative meaning.
+'r'       open for reading (default)
+'w'       open for writing, truncating the file first
+'x'       create a new file and open it for writing
+'a'       open for writing, appending to the end of the file if it exists
+'b'       binary mode
+'t'       text mode (default)
+'+'       open a disk file for updating (reading and writing)
+
+FILE MODES:
+
+"r"
+Read from file - YES
+Write to file - NO
+Create file if not exists - NO
+Truncate file to zero length - NO
+Cursor position - BEGINNING
+
+"r+"
+Read from file - YES
+Write to file - YES
+Create file if not exists - NO
+Truncate file to zero length - NO
+Cursor position - BEGINNING
+
+"w"
+Read from file - NO
+Write to file - YES
+Create file if not exists - YES
+Truncate file to zero length - YES
+Cursor position - BEGINNING
+
+"w+"
+Read from file - YES
+Write to file - YES
+Create file if not exists - YES
+Truncate file to zero length - YES
+Cursor position - BEGINNING
+
+"a"
+Read from file - NO
+Write to file - YES
+Create file if not exists - YES
+Truncate file to zero length - NO
+Cursor position - END
+
+"a+"
+Read from file - YES
+Write to file - YES
+Create file if not exists - YES
+Truncate file to zero length - NO
+Cursor position - END
