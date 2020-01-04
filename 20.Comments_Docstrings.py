@@ -1,7 +1,7 @@
 #comments and docstring
 
-# - single line comment
-""" multi line comment """
+# - single line comment -> it can start at anywhere but should be a single line.
+""" multi line comment -> it should always start in a new line and not behind any print statement or variable"""
 
 #(i) - Comments are annotations to code used to make it easier to understand. They don't affect how code is run.
 x = 365
