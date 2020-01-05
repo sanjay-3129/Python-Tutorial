@@ -1,6 +1,6 @@
 #When a file is opened in write mode, the file's existing content is deleted.
-file = open("newfile.txt",'w')
-msg = input(); print()
+file = open("newfile.txt",'w')      #if there is no file then a new file will be created. Check your current directory where you saved ur python file.
+msg = input(); print()              
 abd = file.write(msg)
 print(abd)      #printing of write method will return the no. of bytes written to a file, if successful.
 file.close()
